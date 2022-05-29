@@ -1,8 +1,8 @@
 # n8n-heroku
 
-![Docker](https://github.com/sarveshpro/n8n-heroku/workflows/Docker/badge.svg) ![Heroku](https://github.com/sarveshpro/n8n-heroku/workflows/Heroku/badge.svg)
+![Docker](https://github.com/minichiello/n8n-heroku/workflows/Docker/badge.svg) ![Heroku](https://github.com/sarveshpro/n8n-heroku/workflows/Heroku/badge.svg)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sarveshwarge/n8n-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/minichiello/n8n-heroku)
 
 #### [ Open Source Contributors feel free to maintain this repository ]
 
@@ -111,7 +111,7 @@ Maybe now you can specify which N8N version to install by Setting a Environment 
 
 _Update - To set n8n version you can pass a argument when deploying using container registry_
 
-    heroku container:push web --arg N8N_VERSION=0.60.0 --app APP_NAME
+    heroku container:push web --arg N8N_VERSION=0.178.2 --app APP_NAME
 
 ### Sources
 
