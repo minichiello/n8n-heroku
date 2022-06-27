@@ -4,7 +4,7 @@ FROM node:lts-alpine
 ARG N8N_VERSION=0.183.0
 
 # Update everything and install needed dependencies
-RUN apk add --update graphicsmagick tzdata
+RUN apk add --update graphicsmagick tzdata git
 
 # Set a custom user to not have n8n run as root
 USER root
